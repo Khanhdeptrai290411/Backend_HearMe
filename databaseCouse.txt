@@ -1,0 +1,25 @@
+CREATE TABLE courses (
+    course_id INT(11) NOT NULL AUTO_INCREMENT,
+    user_id INT(11) NOT NULL,
+    title VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci',
+    description TEXT NOT NULL COLLATE 'utf8mb4_general_ci',
+    nameschool VARCHAR(255) DEFAULT NULL COLLATE 'utf8mb4_general_ci',
+    namecourse VARCHAR(255) DEFAULT NULL COLLATE 'utf8mb4_general_ci',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (course_id) USING BTREE,
+    FOREIGN KEY (user_id) REFERENCES user(id) ON DELETE CASCADE 
+)
+CREATE TABLE quizzes (
+    quizzes_id INT(11) NOT NULL AUTO_INCREMENT,
+    user_id INT(11) NOT NULL,
+    course_id INT(11) NOT NULL,
+    definition TEXT NOT NULL COLLATE 'utf8mb4_general_ci',
+    mota TEXT NOT NULL COLLATE 'utf8mb4_general_ci',
+    image VARCHAR(255) DEFAULT NULL COLLATE 'utf8mb4_general_ci',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (quizzes_id) USING BTREE,
+    FOREIGN KEY (user_id) REFERENCES user(id) ON DELETE CASCADE, 
+    FOREIGN KEY (course_id) REFERENCES courses(course_id) ON DELETE CASCADE
+)

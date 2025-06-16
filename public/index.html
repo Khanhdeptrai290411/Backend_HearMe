@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HearMe Learning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a73e8;
+            text-align: center;
+        }
+        .video-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        #videoElement {
+            width: 100%;
+            max-width: 640px;
+            border-radius: 4px;
+        }
+        .controls {
+            margin: 20px 0;
+            text-align: center;
+        }
+        button {
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+        button:hover {
+            background-color: #1557b0;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .success {
+            background-color: #e6f4ea;
+            color: #137333;
+        }
+        .error {
+            background-color: #fce8e6;
+            color: #c5221f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HearMe Learning</h1>
+        
+        <div class="video-container">
+            <video id="videoElement" autoplay></video>
+        </div>
+
+        <div class="controls">
+            <button id="startButton">Start Camera</button>
+            <button id="stopButton">Stop Camera</button>
+            <button id="recordButton">Record</button>
+        </div>
+
+        <div id="result" class="result" style="display: none;"></div>
+    </div>
+
+    <script>
+        const video = document.getElementById('videoElement');
+        const startButton = document.getElementById('startButton');
+        const stopButton = document.getElementById('stopButton');
+        const recordButton = document.getElementById('recordButton');
+        const resultDiv = document.getElementById('result');
+        let stream = null;
+        let mediaRecorder = null;
+        let recordedChunks = [];
+
+        startButton.addEventListener('click', async () => {
+            try {
+                stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                video.srcObject = stream;
+                startButton.disabled = true;
+                stopButton.disabled = false;
+                recordButton.disabled = false;
+            } catch (err) {
+                console.error('Error accessing camera:', err);
+                showResult('Error accessing camera', false);
+            }
+        });
+
+        stopButton.addEventListener('click', () => {
+            if (stream) {
+                stream.getTracks().forEach(track => track.stop());
+                video.srcObject = null;
+                startButton.disabled = false;
+                stopButton.disabled = true;
+                recordButton.disabled = true;
+            }
+        });
+
+        recordButton.addEventListener('click', () => {
+            if (!stream) return;
+
+            recordedChunks = [];
+            mediaRecorder = new MediaRecorder(stream, { mimeType: 'video/webm' });
+
+            mediaRecorder.ondataavailable = (event) => {
+                if (event.data.size > 0) {
+                    recordedChunks.push(event.data);
+                }
+            };
+
+            mediaRecorder.onstop = async () => {
+                const blob = new Blob(recordedChunks, { type: 'video/webm' });
+                const formData = new FormData();
+                formData.append('video', blob);
+
+                try {
+                    const response = await fetch('/api/process-video', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    const result = await response.json();
+                    showResult(`Similarity: ${result.similarity} - ${result.status}`, result.status === 'Match!');
+                } catch (err) {
+                    console.error('Error processing video:', err);
+                    showResult('Error processing video', false);
+                }
+            };
+
+            mediaRecorder.start();
+            setTimeout(() => mediaRecorder.stop(), 5000); // Record for 5 seconds
+        });
+
+        function showResult(message, isSuccess) {
+            resultDiv.textContent = message;
+            resultDiv.style.display = 'block';
+            resultDiv.className = 'result ' + (isSuccess ? 'success' : 'error');
+        }
+    </script>
+</body>
+</html>

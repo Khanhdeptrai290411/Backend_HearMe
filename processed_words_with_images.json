@@ -1,0 +1,856 @@
+[
+  {
+    "word": "FAMILY",
+    "meaning": "a group consisting of parents and children",
+    "video_url": "1290362005086354-FAMILY.mp4",
+    "topic_id": 4,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "CUTE",
+    "meaning": "",
+    "video_url": "7888892050607954-CUTE.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "GRANDMOTHER",
+    "meaning": "",
+    "video_url": "7230264859038205-GRANDMOTHER.mp4",
+    "topic_id": 4,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "GRANDFATHER",
+    "meaning": "the father of one's parent",
+    "video_url": "7097648622963701-GRANDFATHER.mp4",
+    "topic_id": 4,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "YELLOW",
+    "meaning": "",
+    "video_url": "09620070749870502-YELLOW.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "FOUR",
+    "meaning": "",
+    "video_url": "6350460632371935-FOUR.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "TWO",
+    "meaning": "",
+    "video_url": "14502147506594976-TWO.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "FLOWER",
+    "meaning": "",
+    "video_url": "009014836902160983-FLOWER.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "ORANGE EYES",
+    "meaning": "",
+    "video_url": "8830279561783239-ORANGE EYES.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "ORANGE",
+    "meaning": "",
+    "video_url": "023588612291894906-ORANGE.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "RED",
+    "meaning": "",
+    "video_url": "5097680550716814-RED.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WATER",
+    "meaning": "a clear, colorless liquid essential for life",
+    "video_url": "9850177164607337-WATER.mp4",
+    "topic_id": 5,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "FRIEND",
+    "meaning": "",
+    "video_url": "5316301306146496-FRIEND.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "PIZZA",
+    "meaning": "",
+    "video_url": "813623611627083-PIZZA.mp4",
+    "topic_id": 2,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "PURPLE",
+    "meaning": "",
+    "video_url": "9034585761421232-PURPLE.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "SLEEP",
+    "meaning": "",
+    "video_url": "7642314470248142-SLEEP.mp4",
+    "topic_id": 9,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "LOVE",
+    "meaning": "a strong feeling of affection",
+    "video_url": "3516860036460976-LOVE.mp4",
+    "topic_id": 6,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "NO",
+    "meaning": "",
+    "video_url": "7973429116215278-NO.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "TEXT",
+    "meaning": "",
+    "video_url": "857125803170516-TEXT.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "HOW",
+    "meaning": "",
+    "video_url": "1334132333742275-HOW.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "DESIGN",
+    "meaning": "",
+    "video_url": "9086514784940898-DESIGN.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "GLOW",
+    "meaning": "",
+    "video_url": "3197649082596419-GLOW.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "EAT",
+    "meaning": "put food into the mouth and chew",
+    "video_url": "41461171624603455-EAT.mp4",
+    "topic_id": 5,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "CAR",
+    "meaning": "a road vehicle, typically with four wheels",
+    "video_url": "7773173037795189-CAR.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "ADULT",
+    "meaning": "a person who is fully grown or developed",
+    "video_url": "04997487169446191-ADULT.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "UNDERSTAND",
+    "meaning": "",
+    "video_url": "6593382490905721-UNDERSTAND.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "TALK",
+    "meaning": "speak in order to give information",
+    "video_url": "4442947602488383-TALK.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "BRIGHT",
+    "meaning": "",
+    "video_url": "16094752097750287-BRIGHT.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "THANK YOU",
+    "meaning": "a polite expression used when acknowledging a gift",
+    "video_url": "7535449770372906-THANK YOU.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "STUDY",
+    "meaning": "devote time to learning",
+    "video_url": "7872066695539279-STUDY.mp4",
+    "topic_id": 8,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WANT",
+    "meaning": "have a desire to possess",
+    "video_url": "5893101049934577-WANT.mp4",
+    "topic_id": 9,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "CREDIT CARD",
+    "meaning": "",
+    "video_url": "48105105392945346-CREDIT CARD.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "FATHER",
+    "meaning": "a male parent",
+    "video_url": "8528744514122979-FATHER.mp4",
+    "topic_id": 4,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "HELLO",
+    "meaning": "a greeting",
+    "video_url": "5339916560192981-HELLO.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "GIFT",
+    "meaning": "",
+    "video_url": "5904270673275722-GIFT.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "EASEL",
+    "meaning": "",
+    "video_url": "778012513464502-EASEL.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "YES",
+    "meaning": "",
+    "video_url": "32941176670637984-YES.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "HELLO",
+    "meaning": "a greeting",
+    "video_url": "25802117645943423-HELLO.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "OLD",
+    "meaning": "",
+    "video_url": "9189247540064391-OLD.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "PLEASE",
+    "meaning": "",
+    "video_url": "8166852609962443-PLEASE.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "KNOW",
+    "meaning": "",
+    "video_url": "6568595279283049-KNOW.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "PAINT",
+    "meaning": "",
+    "video_url": "9399911792829212-PAINT.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "BROTHER",
+    "meaning": "",
+    "video_url": "4018868771129471-BROTHER.mp4",
+    "topic_id": 4,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "LETTER",
+    "meaning": "",
+    "video_url": "18173948788093508-LETTER.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "DIFFERENT",
+    "meaning": "",
+    "video_url": "40476184301049223-DIFFERENT.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "SMILE",
+    "meaning": "",
+    "video_url": "31916981574300873-SMILE.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "COLOR",
+    "meaning": "",
+    "video_url": "3764438147213789-COLOR.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "TELL",
+    "meaning": "",
+    "video_url": "3823509508410865-TELL.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "ONE",
+    "meaning": "",
+    "video_url": "8770966028259193-ONE.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "YELLOW",
+    "meaning": "",
+    "video_url": "8471836538815907-YELLOW.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "ACCENT",
+    "meaning": "",
+    "video_url": "8648936502370295-ACCENT.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "BLUE",
+    "meaning": "",
+    "video_url": "7176509553520993-BLUE.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WORK",
+    "meaning": "activity involving mental or physical effort",
+    "video_url": "5227254616703516-WORK.mp4",
+    "topic_id": 9,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "RESPECT",
+    "meaning": "",
+    "video_url": "756903277450578-RESPECT.mp4",
+    "topic_id": 6,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WHITE",
+    "meaning": "",
+    "video_url": "6448236951011861-WHITE.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "PRINT",
+    "meaning": "",
+    "video_url": "7866003783652895-PRINT.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "SCHOOL",
+    "meaning": "a place for education",
+    "video_url": "8965119525543042-SCHOOL.mp4",
+    "topic_id": 8,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WINDY",
+    "meaning": "",
+    "video_url": "7665288123436198-WINDY.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "RED",
+    "meaning": "",
+    "video_url": "811594066024065-RED.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "CONGRATULATIONS",
+    "meaning": "",
+    "video_url": "9958532597521785-CONGRATULATIONS.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "SORRY",
+    "meaning": "feeling distress for having done something wrong",
+    "video_url": "1812960858393966-SORRY.mp4",
+    "topic_id": 6,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "EXCITED",
+    "meaning": "very enthusiastic and eager",
+    "video_url": "8917119128688213-EXCITED.mp4",
+    "topic_id": 6,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "SANDWICH",
+    "meaning": "",
+    "video_url": "7737130968937262-SANDWICH.mp4",
+    "topic_id": 2,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "YOUNG",
+    "meaning": "",
+    "video_url": "5303302596446335-YOUNG.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "ASK",
+    "meaning": "",
+    "video_url": "17597114212490883-ASK.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "HAPPY",
+    "meaning": "",
+    "video_url": "3698632660671215-HAPPY.mp4",
+    "topic_id": 6,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "MAN",
+    "meaning": "",
+    "video_url": "7254166313904942-MAN.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "BUS",
+    "meaning": "",
+    "video_url": "5966434608542641-BUS.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WHERE",
+    "meaning": "",
+    "video_url": "5194308575650113-WHERE.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "YOURSELF",
+    "meaning": "",
+    "video_url": "19071857221615507-YOURSELF.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "CHEER",
+    "meaning": "",
+    "video_url": "553314729191583-CHEER.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "CHILD",
+    "meaning": "a young human being",
+    "video_url": "3790665114648748-CHILD.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "SIGN PAPER",
+    "meaning": "",
+    "video_url": "12529029941829917-SIGN PAPER.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "RAINBOW",
+    "meaning": "",
+    "video_url": "843928640648258-RAINBOW.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "UNCLE",
+    "meaning": "the brother of one's parent",
+    "video_url": "7427124907420595-UNCLE.mp4",
+    "topic_id": 4,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WALK",
+    "meaning": "move at a regular pace by lifting and setting down each foot",
+    "video_url": "6343097793752746-WALK.mp4",
+    "topic_id": 9,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WARM",
+    "meaning": "",
+    "video_url": "8927013768228704-WARM.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "SWEATSHIRT",
+    "meaning": "",
+    "video_url": "42282076612311803-SWEATSHIRT.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "SISTER",
+    "meaning": "",
+    "video_url": "060486944430018674-SISTER.mp4",
+    "topic_id": 4,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "MAYBE",
+    "meaning": "",
+    "video_url": "6329023526245501-MAYBE.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "BYE",
+    "meaning": "",
+    "video_url": "4327026387490418-BYE.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WELCOME",
+    "meaning": "",
+    "video_url": "5622209759183043-WELCOME.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "FLAG",
+    "meaning": "",
+    "video_url": "877479709655794-FLAG.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "START",
+    "meaning": "",
+    "video_url": "8601200936840461-START.mp4",
+    "topic_id": 9,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "GESTURE",
+    "meaning": "",
+    "video_url": "565184760175306-GESTURE.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "CHARGE CARD",
+    "meaning": "",
+    "video_url": "5689690617261716-CHARGE CARD.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "MOTHER",
+    "meaning": "a female parent",
+    "video_url": "2815788565679065-MOTHER.mp4",
+    "topic_id": 4,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WOMAN",
+    "meaning": "",
+    "video_url": "9487367814629044-WOMAN.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WHY",
+    "meaning": "",
+    "video_url": "41986547104124017-WHY.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "LOOK APPEARANCE",
+    "meaning": "",
+    "video_url": "17836373226889646-LOOK APPEARANCE.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "PINK",
+    "meaning": "",
+    "video_url": "11576233542635928-PINK.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "THREE",
+    "meaning": "",
+    "video_url": "3652933102269593-THREE.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "COUSIN",
+    "meaning": "",
+    "video_url": "22696278202246511-COUSIN.mp4",
+    "topic_id": 4,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "HOLIDAY",
+    "meaning": "",
+    "video_url": "5868888444678673-HOLIDAY.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "GREET",
+    "meaning": "",
+    "video_url": "7852351012415277-GREET.mp4",
+    "topic_id": 1,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "LEARN",
+    "meaning": "gain or acquire knowledge",
+    "video_url": "9349267580836926-LEARN.mp4",
+    "topic_id": 8,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "BUY",
+    "meaning": "acquire in exchange for money",
+    "video_url": "35985669580328605-BUY.mp4",
+    "topic_id": 9,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "PICTURE",
+    "meaning": "",
+    "video_url": "8602155743154367-PICTURE.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "ANGRY",
+    "meaning": "feeling or showing strong annoyance",
+    "video_url": "5083164294431413-ANGRY.mp4",
+    "topic_id": 6,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "AUNT",
+    "meaning": "the sister of one's parent",
+    "video_url": "5649500289608069-AUNT.mp4",
+    "topic_id": 4,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "BLUE",
+    "meaning": "",
+    "video_url": "39604229878593755-BLUE.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "INTRODUCE",
+    "meaning": "",
+    "video_url": "8273109815570276-INTRODUCE.mp4",
+    "topic_id": 9,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "ALPHABET",
+    "meaning": "",
+    "video_url": "7647507802538407-ALPHABET.mp4",
+    "topic_id": 8,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "GREEN",
+    "meaning": "a color between blue and yellow",
+    "video_url": "5086571279720689-GREEN.mp4",
+    "topic_id": 3,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "DEAL CARDS",
+    "meaning": "",
+    "video_url": "5320092424785219-DEAL CARDS.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "TRAIN",
+    "meaning": "",
+    "video_url": "35345145348695084-TRAIN.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "SAD",
+    "meaning": "feeling or showing sorrow",
+    "video_url": "7209250305663026-SAD.mp4",
+    "topic_id": 6,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "CHRISTMAS",
+    "meaning": "",
+    "video_url": "7112238068469356-CHRISTMAS.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "FINISH",
+    "meaning": "",
+    "video_url": "24803980252556834-FINISH.mp4",
+    "topic_id": 9,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "STAMP",
+    "meaning": "",
+    "video_url": "952678997812578-STAMP.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "LIKE",
+    "meaning": "",
+    "video_url": "030195387372940363-LIKE.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "WHITE PERSON",
+    "meaning": "",
+    "video_url": "30213143688625066-WHITE PERSON.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "TEA",
+    "meaning": "a hot drink made by infusing dried crushed leaves in boiling water",
+    "video_url": "6214416485603274-TEA.mp4",
+    "topic_id": 2,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "COFFEE",
+    "meaning": "a drink made from roasted coffee beans",
+    "video_url": "29840710286527017-COFFEE.mp4",
+    "topic_id": 2,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "CARDS",
+    "meaning": "",
+    "video_url": "7803374250180826-CARDS.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "SEE",
+    "meaning": "perceive with the eyes",
+    "video_url": "680337953755801-SEE.mp4",
+    "topic_id": 9,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "LIGHT CANDLE",
+    "meaning": "",
+    "video_url": "6082554755432423-LIGHT CANDLE.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "NEED",
+    "meaning": "",
+    "video_url": "024661755952086084-NEED.mp4",
+    "topic_id": 9,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "LOVE",
+    "meaning": "a strong feeling of affection",
+    "video_url": "8291491506273367-LOVE.mp4",
+    "topic_id": 6,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "THINK",
+    "meaning": "",
+    "video_url": "8178850636707293-THINK.mp4",
+    "topic_id": 9,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "ALL DAY",
+    "meaning": "",
+    "video_url": "8929797216097322-ALL DAY.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  },
+  {
+    "word": "SNOWMAN",
+    "meaning": "",
+    "video_url": "20582726055048428-SNOWMAN.mp4",
+    "topic_id": 10,
+    "image_url": "/logo.jpg"
+  }
+]

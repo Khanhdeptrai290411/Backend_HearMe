@@ -1,0 +1,14 @@
+*.npz
+*.pt
+*.h5
+*.pkl
+__pycache__/
+*.log
+*.zip
+*.tar.gz
+sign-language-app\Color_model
+node_modules
+node_modules
+/tf_env
+/Color_model
+/venv2/
