@@ -12,6 +12,7 @@ from app.services.auth import (
     ACCESS_TOKEN_EXPIRE_MINUTES
 )
 from app.schemas.user import UserCreate, UserResponse, Token
+from app.models.user import UserUpdate
 
 router = APIRouter()
 
@@ -81,5 +82,72 @@ def login_for_access_token(
     } 
 @router.get("/me", response_model=UserResponse)
 async def get_current_user_details(current_user: dict = Depends(get_current_active_user)):
-
     return current_user
+
+@router.put("/me", response_model=UserResponse)
+async def update_current_user(
+    user_update: UserUpdate,
+    current_user: dict = Depends(get_current_active_user),
+    db: Session = Depends(get_db)
+):
+    """
+    Update current user's information.
+    """
+    from app.services.auth import get_password_hash
+    from sqlalchemy import text
+    
+    user_id = current_user["id"]
+    update_fields = []
+    params = {"user_id": user_id}
+    
+    if user_update.fullName is not None:
+        update_fields.append("fullName = :fullName")
+        params["fullName"] = user_update.fullName
+    if user_update.email is not None:
+        # Check if email already exists (excluding current user)
+        check_result = db.execute(
+            text("SELECT id FROM users WHERE email = :email AND id != :user_id"),
+            {"email": user_update.email, "user_id": user_id}
+        )
+        if check_result.fetchone():
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Email already registered"
+            )
+        update_fields.append("email = :email")
+        params["email"] = user_update.email
+    if user_update.password is not None:
+        hashed_password = get_password_hash(user_update.password)
+        update_fields.append("password = :password")
+        params["password"] = hashed_password
+    
+    if not update_fields:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="No fields to update"
+        )
+    
+    # Build update query
+    update_query = f"UPDATE users SET {', '.join(update_fields)} WHERE id = :user_id"
+    result = db.execute(text(update_query), params)
+    db.commit()
+    
+    if result.rowcount == 0:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found"
+        )
+    
+    # Get updated user
+    updated_result = db.execute(
+        text("SELECT id, email, fullName, role FROM users WHERE id = :user_id"),
+        {"user_id": user_id}
+    )
+    updated_user = updated_result.fetchone()
+    
+    return {
+        "id": updated_user.id,
+        "email": updated_user.email,
+        "fullName": updated_user.fullName,
+        "role": updated_user.role
+    }
