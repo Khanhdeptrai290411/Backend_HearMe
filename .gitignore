@@ -6,10 +6,10 @@ __pycache__/
 *.log
 *.zip
 *.tar.gz
-sign-language-app\Color_model
+Color_model/
+Family/
+public/uploads/
 node_modules
 node_modules
 /tf_env
-/Color_model
 /venv2/
-public/uploads

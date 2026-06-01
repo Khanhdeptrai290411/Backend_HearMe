@@ -1,8 +1,11 @@
+import os
+# PHẢI LÀM ĐẦU TIÊN: Ép TensorFlow sử dụng Keras 2 (Legacy)
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
 import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.metrics import CosineSimilarity
 from app.database.connection import execute_query
-from datetime import datetime
+from datetime import datetime, timezone
 from fastapi import Request
 
 class ModelService:
@@ -36,7 +39,9 @@ class ModelService:
 
         try:
             print(f"Loading model from: {self.config['model_file']}")
-            self.model = load_model(self.config['model_file'])
+            # compile=False giúp bỏ qua việc nạp các bộ tối ưu hóa (optimizer), 
+            # thường giúp vượt qua các lỗi không khớp layer khi nạp model để predict.
+            self.model = load_model(self.config['model_file'], compile=False)
         except Exception as e:
             raise Exception(f"Error loading model file: {str(e)}")
 
@@ -73,7 +78,8 @@ class ModelService:
                     VALUES (%s, %s, %s, %s)
                     ON DUPLICATE KEY UPDATE is_completed = VALUES(is_completed), completed_at = VALUES(completed_at)
                 """
-                current_time = datetime.utcnow()
+                
+                current_time = datetime.now(timezone.utc)
                 params = (user_id, video_id, True, current_time)
                 print(f"Executing query with params: {params}")
                 

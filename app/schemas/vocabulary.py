@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from typing import Optional
 import logging
 
@@ -13,5 +13,8 @@ class VocabularyResponse(BaseModel):
     image_url: Optional[str] = None
     type: Optional[str] = None
 
-    class Config:
-        from_attributes = True 
+    # Gộp tất cả cấu hình vào đây và XÓA class Config cũ đi
+    model_config = ConfigDict(
+        protected_namespaces=(),
+        from_attributes=True
+    )
